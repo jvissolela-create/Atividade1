@@ -30,6 +30,27 @@ div {
 #foto{
     width: 50%;
     border-radius: 50%;
+   
+     
+}
+
+footer{
+    color:white;
+    text-align: center;
+    font-style: bold;
+
+
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+#foto{
+    border-radius:50%;
+    border-width: 50%;
+    scale: 25%;   
      
 }
 

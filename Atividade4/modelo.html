@@ -4,38 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width", initial-sclae="1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <title>Verificador de idade</title>
-<link rel="stylesheet" href="estilo.css">   
+    <title>Modelo de exercicios</title>
+    <link rel="stylesheet" href="/Atividade4/estilo.css">
+    <script src="/Atividade4/script.js"></script>
 
 </head>    
 
 <body onload="carregar()">
-    <script src="script.js"></script>
-
     <header>
-        <h1>Verificador de idade</h1>
+        <h1>Vamos contar</h1>
     </header>
 
     <section>
-        <div>
-            <p>Ano de Nascimento
-                <input type="number" name="txtano" id="txtano" min="0">
-            </p>
-            <p>Sexo:
-                <input type="radio" name="radsex" id="masc" checked>
-                <label for="masc">Masculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
-            </p>
-
-            <p>
-                <input type="button" value="Verificar" onclick="verificar()">
-            </p>
-
+        <div id="dados">
+            <p>Início: <input type="number" name="inicio" id="txti"></p>
+            <p>Fim: <input type="number" name="fim" id="txtf"></p>
+            <p>Passo: <input type="number" name="passo" id="txtp"></p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
 
         <div id="res">
-            Preencha os dados acima para ver resultado!
+            Preparando a contagem....        
         </div>
     </section>
 
@@ -43,5 +32,8 @@
         <p>&copy; Jandira_Agostinho</p>
     </footer>
 </body>
+
+
+
 
 </html>

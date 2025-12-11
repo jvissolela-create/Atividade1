@@ -5,7 +5,7 @@ var valores = []
 
 
 function numero(n){
-    if(Number(n) >= 1 && Number(n) <= 100){
+    if(Number(n) >= 1 && Number(n) <= 500){
         return true
     } else {
         return false

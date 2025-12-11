@@ -38,7 +38,7 @@ function verificar() {
                 img.setAttribute('src', 'img/Homemadulto.jpg')
             } else {
                 // Idoso
-                genero = 'Idosa'
+                genero = 'Idoso'
                 img.setAttribute('src', 'img/Idoso.jpg')
             }
 
@@ -51,7 +51,7 @@ function verificar() {
                 img.setAttribute('src', 'img/bebemenina.jpg')
             } else if (idade < 10) {
                 // Menino
-                genero = 'Menino'
+                genero = 'Menina'
                 img.setAttribute('src', 'img/menina.jpg')
             } else if (idade < 18) {
                 // Adolescente
@@ -63,7 +63,7 @@ function verificar() {
                 img.setAttribute('src', 'img/MulherJovem.jpg')
             } else if (idade < 50) {
                 // Adulto
-                genero = 'Adulto'
+                genero = 'Adulta'
                 img.setAttribute('src', 'img/MulherAdulta.jpg')
             } else {
                 // Idosa
